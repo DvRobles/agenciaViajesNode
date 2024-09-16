@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7 
+                h1 #{pagina}
+                blockquote Quisque egestas nisl non ipsum fringilla tempor. Proin hendrerit sapien nec eros accumsan tristique. Cras nec ex id lorem mollis aliquam. Nam ipsum quam, lacinia bibendum iaculis nec, mattis ac nibh. Quisque sed rhoncus ante.
+
+                p Vestibulum orci augue, congue sed arcu ut, feugiat elementum ipsum. Suspendisse tristique, ipsum vitae ullamcorper semper, enim quam posuere erat, et bibendum lectus felis et est.
+                
+                p Integer laoreet pharetra tellus, ut tincidunt ipsum tristique scelerisque. Vivamus mattis lectus id leo porttitor venenatis. Donec a felis a arcu rutrum molestie ac sed sapien. Maecenas tellus ipsum, egestas ac scelerisque ut, interdum nec est. 
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad" class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Integer laoreet pharetra tellus, ut tincidunt ipsum tristique scelerisque. Vivamus mattis lectus id leo porttitor venenatis. Donec a felis a arcu rutrum molestie ac sed sapien. Maecenas tellus ipsum, egestas ac scelerisque ut, interdum nec est.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos" class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Integer laoreet pharetra tellus, ut tincidunt ipsum tristique scelerisque. Vivamus mattis lectus id leo porttitor venenatis. Donec a felis a arcu rutrum molestie ac sed sapien. Maecenas tellus ipsum, egestas ac scelerisque ut, interdum nec est.
+                
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios" class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Integer laoreet pharetra tellus, ut tincidunt ipsum tristique scelerisque. Vivamus mattis lectus id leo porttitor venenatis. Donec a felis a arcu rutrum molestie ac sed sapien. Maecenas tellus ipsum, egestas ac scelerisque ut, interdum nec est.
